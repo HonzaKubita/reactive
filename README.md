@@ -98,5 +98,13 @@ export function SomeComponent() {
 
   // Use as you would use any `useState` variable
   // Changing the value outside of this component will trigger a re-render of this component and likewise changing it here will trigger a callback on all of the subscribers
+
+  return <div>
+    <p>{count}<p>
+    <button @onClick={() => count.value++}>Add Count</button>
+    <hr>
+    <p>{username}<p>
+    <input type="text" onChange={e => setUsername(e.target.value)}>
+  </div
 }
 ```

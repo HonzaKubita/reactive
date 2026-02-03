@@ -105,6 +105,6 @@ export function SomeComponent() {
     <hr>
     <p>{username}<p>
     <input type="text" onChange={e => setUsername(e.target.value)}>
-  </div
+  </div>
 }
 ```
